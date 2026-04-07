@@ -7,19 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
 
-  <!--
-    - favicon
-  -->
+  <!-- favicon -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- custom css link -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,517 +21,218 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- SIDEBAR -->
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <img src="./assets/images/PFRESIZED.jpg" alt="Carolina Sauselé">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Carolina Sauselé">Carolina Sauselé</h1>
-
           <p class="title">Student Informatica</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
 
         <ul class="contacts-list">
-
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">caasausele@gmail.com</a>
+              <a href="mailto:caasausele@gmail.com" class="contact-link">caasausele@gmail.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Mobiel</p>
-
-              <a href="tel:+12133522795" class="contact-link">+31 6 330 857 93</a>
+              <a href="tel:+31633085793" class="contact-link">+31 6 330 857 93</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Geboortedatum</p>
-
-              <time datetime="1982-06-23">4 Januari 2001</time>
+              <time datetime="2001-01-04">4 Januari 2001</time>
             </div>
-
           </li>
 
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Oegstgeest, Nederland</address>
             </div>
-
           </li>
-
         </ul>
 
         <div class="separator"></div>
 
         <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
+          <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
         </ul>
-
       </div>
-
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
+    <!-- MAIN CONTENT -->
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- NAVBAR -->
       <nav class="navbar">
-
         <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-      
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
         </ul>
-
       </nav>
 
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">Over mij</h2>
-        </header>
-
+      <!-- ABOUT SECTION -->
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">Over mij</h2></header>
         <section class="about-text">
           <p>
             Ik ben een student Informatica aan de Hogeschool Leiden. Ik heb veel interesse in Full Stack Development en design. 
             Verder heb ik vijf katten en werk ik veel aan kunstwerken. Ik ben altijd bereid om nieuwe dingen te leren en pak ook snel dingen op. 
-            Ik ben zeer goed in samenwerken, maar kan zelfstandig werken waar nodig is. 
+            Ik ben zeer goed in samenwerken, maar kan zelfstandig werken waar nodig is.
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
         <section class="service">
-
           <h3 class="h3 service-title">Wat doe ik graag?</h3>
-
           <ul class="service-list">
-
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/ueimage.png
-                " alt="design icon" width="40">
-              </div>
-
+              <div class="service-icon-box"><img src="./assets/images/ueimage.png" alt="design icon" width="40"></div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Unreal Engine</h4>
-
-                <p class="service-item-text">
-                  Ik werk graag met Unreal Engine om mooie en leuke pixel 2D spellen te maken. 
-                </p>
+                <p class="service-item-text">Ik werk graag met Unreal Engine om mooie en leuke pixel 2D spellen te maken.</p>
               </div>
-
             </li>
 
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/udemyimage.png" alt="Web development icon" width="40">
-              </div>
-
+              <div class="service-icon-box"><img src="./assets/images/udemyimage.png" alt="Web development icon" width="40"></div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Udemy Courses</h4>
-
-                <p class="service-item-text">
-                  Ik leer graag en zoek altijd nieuwe interesses om te leren van Udemy. Zo heb ik ook leren werken met Unity, Unreal Engine en Angular.
-                </p>
+                <p class="service-item-text">Ik leer graag en zoek altijd nieuwe interesses om te leren van Udemy. Zo heb ik ook leren werken met Unity, Unreal Engine en Angular.</p>
               </div>
-
             </li>
 
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/paint.png" alt="mobile app icon" width="40">
-              </div>
-
+              <div class="service-icon-box"><img src="./assets/images/paint.png" alt="mobile app icon" width="40"></div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Schilderijen maken</h4>
-
-                <p class="service-item-text">
-                  Ik maak veel schilderijen en doe veel met kunst. 
-                  Vaak zorg ik ervoor dat ik mijn creatieve kennis kan toepassen in projecten zodat ik en veel leer, en mijn passie kan mengen met elkaar.
-                </p>
+                <p class="service-item-text">Ik maak veel schilderijen en doe veel met kunst. Vaak zorg ik ervoor dat ik mijn creatieve kennis kan toepassen in projecten zodat ik en veel leer, en mijn passie kan mengen met elkaar.</p>
               </div>
-
             </li>
 
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
+              <div class="service-icon-box"><img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"></div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Zorgen voor mijn katten.</h4>
-
-                <p class="service-item-text">
-                  Ik heb vijf katten waarmee ik graag speel. Ik verzorg ze ook zoveel als ik kan. In mijn vrije tijd help ik af en toe bij het Dierenasiel Tiel.
-                  Verder houd ik ook erg van fotografie en maak ik in mijn vrije tijd veel foto's met een polaroid camera. 
-                </p>
+                <h4 class="h4 service-item-title">Zorgen voor mijn katten</h4>
+                <p class="service-item-text">Ik heb vijf katten waarmee ik graag speel. Ik verzorg ze ook zoveel als ik kan. In mijn vrije tijd help ik af en toe bij het Dierenasiel Tiel. Verder houd ik ook erg van fotografie en maak ik in mijn vrije tijd veel foto's met een polaroid camera.</p>
               </div>
-
             </li>
-
           </ul>
-
         </section>
       </article>
 
-      <!--
-        - #PORTFOLIO
-      -->
-
+      <!-- PORTFOLIO SECTION -->
       <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
+        <header><h2 class="h2 article-title">Portfolio</h2></header>
         <section class="projects">
 
           <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Andere Projecten</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Web design</button></li>
+            <li class="filter-item"><button data-filter-btn>Andere Projecten</button></li>
+            <li class="filter-item"><button data-filter-btn>Web development</button></li>
           </ul>
 
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
             </button>
 
             <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Andere Projecten</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web design</button></li>
+              <li class="select-item"><button data-select-item>Andere Projecten</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
             </ul>
-
           </div>
 
           <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-1.jpg" alt="Aerith Flower Shop" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Unreal Engine</h3>
-
-                <p class="project-category">Full Stack INFIRFS</p>
-
+                <h3 class="project-title">Full Stack Development van Aerith's Flower Shop</h3>
+                <p class="project-category">Web Development</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/creategc.png" alt="Gift Card Create" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">Gift Card functie (Create)</h3>
+                <p class="project-category">Web Development</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/managegc.png" alt="Gift Card Manage" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
+                <h3 class="project-title">Gift Card functie (Manage)</h3>
+                <p class="project-category">Web Development</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-4.png" alt="MegaMan Platformer" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">MegaMan Platformer Game</h3>
+                <p class="project-category">Andere Projecten</p>
               </a>
             </li>
 
           </ul>
 
         </section>
-
-      </article>
-
       </article>
 
     </div>
-
   </main>
-  <!--
-    - custom js link
-  -->
+
+  <!-- custom js link -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+  <!-- ionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
-      
